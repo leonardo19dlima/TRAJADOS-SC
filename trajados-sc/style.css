@@ -1,0 +1,123 @@
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  margin: 0;
+  background-color: #0d0d0d;
+  color: #fff;
+}
+
+header {
+  background-color: #000;
+  text-align: center;
+  padding: 25px 0;
+  border-bottom: 3px solid #ff3c00;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.slogan {
+  font-style: italic;
+  color: #ff3c00;
+  margin-top: 5px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ff3c00;
+}
+
+.banner {
+  background: url("imagens/banner.jpg") no-repeat center/cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-texto {
+  background-color: rgba(0,0,0,0.6);
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+button {
+  background-color: #ff3c00;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff7b00;
+}
+
+.colecao {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.colecao h2 {
+  color: #ff3c00;
+  margin-bottom: 40px;
+}
+
+.produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.produto {
+  background-color: #1b1b1b;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(255, 60, 0, 0.3);
+  text-align: center;
+}
+
+.produto img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.produto p {
+  color: #ff7b00;
+  font-weight: bold;
+}
+
+.sobre {
+  background-color: #111;
+  padding: 50px 20px;
+  border-top: 2px solid #ff3c00;
+  text-align: center;
+}
+
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 25px 0;
+  color: #aaa;
+  border-top: 3px solid #ff3c00;
+}
